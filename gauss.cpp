@@ -5,7 +5,6 @@
 
 double gaussFnc(double x, double sgm = 1, double x0 = 0);
 double gaussRand(double sgm = 1, double x0 = 0, double rng = 5);
-// this gauss is checked - it's really gauss
 double myRnd(void){ return rand()/double(RAND_MAX); }
 double myRnd(double a, double b){
 	if(a>b) swap(a,b);
