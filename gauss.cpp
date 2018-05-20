@@ -1,7 +1,7 @@
 #pragma once
 
 #include <math.h>
-#include <cstdlib>
+#include <stdlib.h>
 
 double gaussFnc(double x, double sgm = 1, double x0 = 0);
 double gaussRand(double sgm = 1, double x0 = 0, double rng = 5);
