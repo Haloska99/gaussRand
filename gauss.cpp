@@ -3,6 +3,8 @@
 #include <math.h>
 #include <stdlib.h>
 
+// like this
+
 double gaussFnc(double x, double sgm = 1, double x0 = 0);
 double gaussRand(double sgm = 1, double x0 = 0, double rng = 5);
 double myRnd(void){ return rand()/double(RAND_MAX); }
